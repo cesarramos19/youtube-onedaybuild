@@ -14,6 +14,9 @@
 		605804E02507F996008783F3 /* youtube_onedaybuild.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 605804DE2507F996008783F3 /* youtube_onedaybuild.xcdatamodeld */; };
 		605804E22507F997008783F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605804E12507F997008783F3 /* Assets.xcassets */; };
 		605804E52507F997008783F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605804E32507F997008783F3 /* LaunchScreen.storyboard */; };
+		605804ED25085E1F008783F3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605804EC25085E1F008783F3 /* Constants.swift */; };
+		605804EF250860E2008783F3 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605804EE250860E2008783F3 /* Video.swift */; };
+		605804F125086183008783F3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605804F025086183008783F3 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		605804E12507F997008783F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		605804E42507F997008783F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		605804E62507F997008783F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605804EC25085E1F008783F3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		605804EE250860E2008783F3 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		605804F025086183008783F3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				605804E32507F997008783F3 /* LaunchScreen.storyboard */,
 				605804E62507F997008783F3 /* Info.plist */,
 				605804DE2507F996008783F3 /* youtube_onedaybuild.xcdatamodeld */,
+				605804EC25085E1F008783F3 /* Constants.swift */,
+				605804EE250860E2008783F3 /* Video.swift */,
+				605804F025086183008783F3 /* Model.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -141,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				605804F125086183008783F3 /* Model.swift in Sources */,
 				605804E02507F996008783F3 /* youtube_onedaybuild.xcdatamodeld in Sources */,
+				605804EF250860E2008783F3 /* Video.swift in Sources */,
 				605804DA2507F996008783F3 /* ViewController.swift in Sources */,
+				605804ED25085E1F008783F3 /* Constants.swift in Sources */,
 				605804D62507F996008783F3 /* AppDelegate.swift in Sources */,
 				605804D82507F996008783F3 /* SceneDelegate.swift in Sources */,
 			);
