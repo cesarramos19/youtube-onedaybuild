@@ -20,6 +20,8 @@
 		605BF5D52509703100250FA0 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BF5D42509703100250FA0 /* Response.swift */; };
 		6079434D250AD3780010B1F0 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6079434C250AD3780010B1F0 /* VideoTableViewCell.swift */; };
 		60794354250AE3A40010B1F0 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60794353250AE3A40010B1F0 /* CacheManager.swift */; };
+		60BBA248250D4F7C00F48966 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BBA247250D4F7C00F48966 /* DetailViewController.swift */; };
+		60BBA24B250D5AFB00F48966 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BBA24A250D5AFB00F48966 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		605BF5D42509703100250FA0 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		6079434C250AD3780010B1F0 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		60794353250AE3A40010B1F0 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		60BBA247250D4F7C00F48966 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		60BBA24A250D5AFB00F48966 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60BBA24B250D5AFB00F48966 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +61,7 @@
 			children = (
 				605804D42507F996008783F3 /* youtube-onedaybuild */,
 				605804D32507F996008783F3 /* Products */,
+				60BBA249250D5AFB00F48966 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				605804D92507F996008783F3 /* ViewController.swift */,
+				60BBA247250D4F7C00F48966 /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -126,6 +133,14 @@
 				60794353250AE3A40010B1F0 /* CacheManager.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		60BBA249250D5AFB00F48966 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60BBA24A250D5AFB00F48966 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60BBA248250D4F7C00F48966 /* DetailViewController.swift in Sources */,
 				605BF5D52509703100250FA0 /* Response.swift in Sources */,
 				605804F125086183008783F3 /* Model.swift in Sources */,
 				605804E02507F996008783F3 /* youtube_onedaybuild.xcdatamodeld in Sources */,
